@@ -1,0 +1,30 @@
+:root{
+    --white: #ffffff;
+    --Sec:#0097a7;
+    --grisclaro: #DFE9F3;
+}
+
+body {
+    background-color: var(--grisclaro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+}
+.boton{
+    background-color: var(--Sec);
+    color: var(--white);
+    padding: 10px 30px;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    border: none;
+}
+.boton:hover {
+    cursor: pointer;
+}
